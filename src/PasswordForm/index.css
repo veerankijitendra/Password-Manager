@@ -1,0 +1,57 @@
+.foam-con {
+  background-color: #454f84;
+  padding: 2.5rem 1rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+}
+.add-new-password-heading {
+  color: #f8fafc;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.image-input-con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+.search-icon-con {
+  height: 2rem;
+  width: 2rem;
+  background-color: #f8fafc;
+  padding: 7px;
+  margin-right: 0.5px;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+.image {
+  height: 100%;
+}
+.input-ele-con {
+  height: 2rem;
+  flex-grow: 1;
+  display: flex;
+}
+.input-ele {
+  height: 100%;
+  outline: none;
+  border: none;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  padding: 2px 6px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+.button {
+  height: 1.8rem;
+  width: 4rem;
+  /* border-radius: 0.3rem; */
+  outline: none;
+  border: none;
+  background-color: #0b69ff;
+  align-self: flex-end;
+  color: #f8fafc;
+  flex-shrink: 0;
+  cursor: pointer;
+}

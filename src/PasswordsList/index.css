@@ -1,0 +1,76 @@
+.pw-list {
+  min-width: 15rem;
+  max-width: 20rem;
+  min-height: 5rem;
+  max-height: 6rem;
+  border: 1px solid #94a3b8;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.initial-name-con {
+  display: flex;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  padding: 4px 0 0 9.5px;
+}
+.initial-name {
+  color: #f8fafc;
+  font-weight: 500;
+}
+.names-con {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.stars {
+  min-height: 0.4rem;
+  max-height: 1rem;
+  max-width: 3rem;
+  margin: 0.2rem 0 0 0.8rem;
+}
+.names {
+  color: #f8fafc;
+  font-size: 0.65rem;
+  margin: 0 0 0.2rem 0.8rem;
+  font-weight: 600;
+}
+.dlt-con {
+  width: 1rem;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.delete-img {
+  height: 100%;
+  width: 100%;
+}
+.color-1 {
+  background-color: #10b981;
+}
+.color-2 {
+  background-color: #f97316;
+}
+.color-3 {
+  background-color: #14b8a6;
+}
+.color-4 {
+  background-color: #b91c1c;
+}
+.color-5 {
+  background-color: #0ea5e9;
+}
+.color-6 {
+  background-color: #0b69ff;
+}
+.color-7 {
+  background-color: #c3caea;
+}
+.color-8 {
+  background-color: #454f84;
+}

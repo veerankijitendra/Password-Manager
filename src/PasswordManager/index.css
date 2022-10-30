@@ -1,0 +1,111 @@
+.bg-pm {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.pm-logo {
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.app-logo-img {
+  height: 100%;
+}
+.pw-foam-img-con {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 767px) {
+  .pw-foam-img-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.ps-img-con {
+  height: 20rem;
+}
+.ps-img {
+  height: 100%;
+}
+@media all and (min-width: 767px) {
+  .hide-sm {
+    display: none;
+  }
+}
+@media all and (max-width: 767px) {
+  .hide-lg {
+    display: none;
+  }
+}
+
+.passwords-count-search-list-con {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  min-height: 30rem;
+}
+.password-count-search-con {
+  display: flex;
+  justify-content: space-between;
+}
+.your-passwords-heading {
+  color: #f8fafc;
+  font-size: 1.2rem;
+}
+.count-of-passwords {
+  border: 1px solid #64748b;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  border-radius: 30%;
+}
+.hr-line {
+  border: 1px solid #f8fafc;
+  outline: none;
+  color: #f8fafc;
+}
+.show-password-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem 0;
+}
+.check-box {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+}
+.show-passwords-label {
+  color: #f8fafc;
+  font-weight: 400;
+}
+.zero-passwords-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-img-con {
+  flex-grow: 1;
+  max-height: 15rem;
+  min-height: 4rem;
+}
+.password-image {
+  max-height: 15rem;
+  min-height: 4rem;
+}
+.no-passwords {
+  color: #f8fafc;
+  font-weight: 400;
+}
+.password-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.yourPasswords {
+  display: flex;
+  align-items: center;
+}
