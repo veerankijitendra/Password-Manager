@@ -90,7 +90,6 @@ class PasswordManager extends Component {
             <img
               src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png"
               alt="password manager"
-              placeholder="Enter Website"
               className="ps-img hide-lg"
             />
           </div>
@@ -99,7 +98,7 @@ class PasswordManager extends Component {
         <div className="passwords-count-search-list-con">
           <div className="password-count-search-con">
             <div className="yourPasswords">
-              <p className="your-passwords-heading">Your Passwords</p>
+              <h1 className="your-passwords-heading">Your Passwords</h1>
               <p className="count-of-passwords">{filterdPasswords.length}</p>
             </div>
             <div className="image-input-con">
